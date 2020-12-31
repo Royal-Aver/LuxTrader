@@ -1,7 +1,4 @@
-.container {
-	max-width: 1124px;
-	margin: 0 auto;
-}
+
 .header__inner {
 	display: flex;
 	justify-content: space-between;
@@ -38,7 +35,6 @@
 .user-nav__link + .user-nav__link {
 	margin-left: 14px;
 	font-weight: 600;
-	font-size: 16px;
 	color: #fff;
 	background: #ff9900;
 	border-radius: 4px;
