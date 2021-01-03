@@ -84,7 +84,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
-  color: #2F281E;
+  color: #2f281e;
 }
 
 .container {
@@ -255,4 +255,49 @@ h6 {
   display: block;
   margin: 0 auto;
   width: 175px;
+}
+
+.advantages__inner {
+  padding-top: 120px;
+  padding-bottom: 157px;
+}
+
+.advantages__item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages__item-content {
+  max-width: 486px;
+}
+
+.pretitle {
+  margin-bottom: 3px;
+}
+
+.advantages__item-title {
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.advantages__item-subtitle {
+  margin-bottom: 30px;
+}
+
+.advantages__item-title-ul {
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.advantages__item-subtitle-ul {
+  margin-bottom: 25px;
+}
+
+.advantages__img-bg {
+  position: relative;
 }
